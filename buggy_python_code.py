@@ -12,10 +12,11 @@ def transcode_file(request, filename):
     subprocess.call(command, shell=True)  # a bad idea!
 
 
+
 # Assert statements
 def mojefunkce(user):
     assert user.is_admin, 'user does not have access'
-    # secure code...
+    # secure code.....
 
 
 # Pickles
